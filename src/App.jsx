@@ -49,11 +49,11 @@ function App() {
       
       <div className="w-full max-w-sm mt-6 p-6 bg-white shadow-lg rounded-lg text-center">
         {isLoading ? (
-          <img
+           <img
             src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl08kpLO68QxV3ht5mN7p1Su7wk3RY8lPOhrQv2JrhkeoZzf02cIQQ6MdV18M33yZcoqpHsbKZ__Yju086OCZFFM3zwhUO2xExkJYOk7ljqNmZ5fz-vjO5TL5b66M4dptFJ1nU/s1600/11-03+~+GIF+~+Please+Wait.gif"
-            width={80}
+           width={80}
             className="mx-auto"
-          />
+         />
         ) : wDetails !== undefined ? (
           <>
             <h3 className="text-2xl font-bold">
